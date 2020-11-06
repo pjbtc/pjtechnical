@@ -1,0 +1,15 @@
+input[type=text], input[type=email], input[type=number]{
+	width:30%;
+	
+}
+textarea{
+	width:30%;
+	height:70px;
+}
+input[type=subit]{
+	width:10%;
+	background-color: blue;
+	border:2px solid red;
+	color:green	;
+	margin: 4px 5px;
+}

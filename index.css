@@ -1,0 +1,105 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: "Muli", sans-serif; 
+	
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("./images/bgpic.jpg");
+}
+.navbar{
+	background-color: #fff;
+}
+
+.navbar-brand{
+	font-size: 1.9rem;
+}
+.navbar a{
+	font-size: 1.3rem;
+	text-transform: capitalize;
+}
+.navbar a:hover{
+	color: #66B62B !important;
+
+}
+.menu_active{
+	font-weight:bold;
+	border-buttom: 1px solid #186A3B;
+}
+#header .btn-get-started: hover{
+	background: #FF5733;
+	color:#C70039;
+}
+#header h1{
+	font-size: 30px;
+}
+
+#header h1{
+	font-size: 20px;
+}
+#header .brand-name{
+	color:blue	;
+}
+#header .btn-get-started{
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 10px 30px;
+	transition: 0.5s;
+	border-radius:50px;
+	border: 2px solid blue;
+	color:white;
+	background: blue;
+	text-decoration: none;
+}
+#header .btn-get-started:hover{
+	background: #D6EAF8;
+	color:#1ABC9C;
+}
+.header-img {
+	text-align:right;
+}
+#header .animated{
+	animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.container contact_div{
+	margin-top: 200px;
+}
+.homestyles{
+	margin-top: 250px;
+}
+.aboutstyles{
+	margin-top: 200px;
+}
+.contactstyles{
+	margin-top: 250px;
+}
+
+
+@-webkit-keyframes up-down{
+	0%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform:translateY(-10px);
+	}	
+}
+@keyframes up-down{
+	0%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform:translateY(-10px);
+	}
+
+}
